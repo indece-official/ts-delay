@@ -1,0 +1,20 @@
+{
+  "name": "ts-delay",
+  "version": "1.0.0",
+  "description": "Typescript library to delay something by a minimum amount of time",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "github:indece-official/ts-delay",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "indece UG (haftungsbeschränkt)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
